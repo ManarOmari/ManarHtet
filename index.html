@@ -13,10 +13,17 @@
         Thank you for taking the time to help us improve the platform
       </p>
       <form id="survey-form">
-        <label for="name">Name:</label><br>
+        <label for="name" id="name-label">Name:</label><br>
         <input type="text" id="name" name="name"><br>
-        <label for="email">Email:</label><br>
-        <input type="email" id="email" name="email">
+        <label for="email" id="email-label">Email:</label><br>
+        <input type="email" id="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2} "> 
+        <label for="age" id="number-label">Age:</label><br>
+        <input type="number" id="number" name="number" min="10" max="99"><br>
+        <label for="option">Which option best describes your current role? </label><br>
+        <select id="">
+
+        </select>
+
       </form>
     </div>
   </body>
